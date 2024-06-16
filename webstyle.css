@@ -1,42 +1,56 @@
 body{
-    background-color: cadetblue;
+    background-color: black;
 }
-.header-line{
+.header-1{
     display: flex;
-    padding: 50px;
-    font-size: 100px;
+    padding: 60px;
+    font-size: 20px;
     list-style-type: none;
     flex-direction: row;
 }
-.list{
+.list-header-1{
     display: flex;
     list-style-type: none;
-    margin: 141px;
     justify-content: space-between;
     justify-content: left;
-    padding: 50px;
+    padding: 9px;
+    text-align: center;
 }
 .fab{
-    padding: 50px;
-    width: 40px;
-    height: 40px;
-    font-size: 100px;
+    padding: 40px;
+    font-size: 45px;
+    color: aliceblue;
+    margin-top: 70px;
+    margin-left: 150px;
 }
 .ins{
-    padding: 50px;
-    width: 40px;
-    height: 40px;
-    font-size: 100px;
+    padding: 40px;
+    font-size: 45px;
+    color: aliceblue;
+    margin-top: 70px;
 }
 .twit{
-    padding: 50px;
-    width: 40px;
-    height: 40px;
-    font-size: 100px;
+    padding: 40px;
+    font-size: 45px;
+    color: aliceblue;
+    margin-top: 70px;
 }
 #img{
+    padding: 4px;
     text-align: center;
-    font-family: "Dancing Script", cursive;
-    margin-left: 2000px;
-    font-size: 150px;
+    color: goldenrod;
+    font-size: 200px;
+    font-family: "Meow Script", cursive;
+    margin-left: 2101px;
+    margin-top: 1px;
+}
+#call{
+    color: goldenrod;
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    border: 6px solid goldenrod;
+    padding: 37px;
+    height: 50px;
+    margin-left: 1950px;
+    margin-top: 70px;
 }
