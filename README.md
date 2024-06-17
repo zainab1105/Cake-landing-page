@@ -1,2 +1,2 @@
 # mini-pro
-Creating a non-functional website 
+Creating a non-functional website using HTML & CSS 
