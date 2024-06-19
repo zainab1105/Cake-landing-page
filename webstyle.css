@@ -6,9 +6,8 @@ body{
     padding: 60px;
     font-size: 20px;
     list-style-type: none;
-    flex-direction: row;
 }
-.list-header-1{
+.top-header-1{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
@@ -20,29 +19,29 @@ body{
     padding: 40px;
     font-size: 45px;
     color: aliceblue;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 150px;
 }
 .ins{
     padding: 40px;
     font-size: 45px;
     color: aliceblue;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 .twit{
     padding: 40px;
     font-size: 45px;
     color: aliceblue;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 #img{
     padding: 4px;
     text-align: center;
     color: goldenrod;
-    font-size: 200px;
+    font-size: 180px;
     font-family: "Meow Script", cursive;
     margin-left: 2101px;
-    margin-top: 1px;
+    margin-top: -1%;
 }
 #call{
     color: goldenrod;
@@ -51,6 +50,28 @@ body{
     border: 6px solid goldenrod;
     padding: 37px;
     height: 50px;
-    margin-left: 1950px;
-    margin-top: 70px;
+    margin-left: 1800px;
+    margin-top: 30px;
+}
+.header-2{
+    display: flex;
+    color: aliceblue;
+    font-family: "Jost", sans-serif;;
+    font-size: 48px;
+    text-align: center;
+    list-style-type: none;
+    padding: 32px 7px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+#homepage{
+    margin-left: 2400px;
+}
+#contactpage{
+    margin-right: 2400px;
+}
+.cake-image{
+    display: grid;
+    align-items: center;
+    padding: 60px;
 }
