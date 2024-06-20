@@ -57,21 +57,77 @@ body{
     display: flex;
     color: aliceblue;
     font-family: "Jost", sans-serif;;
-    font-size: 48px;
+    font-size: 42px;
     text-align: center;
     list-style-type: none;
     padding: 32px 7px;
     justify-content: space-between;
     text-transform: uppercase;
+    position: sticky;
 }
 #homepage{
-    margin-left: 2400px;
+    margin-left: 2485px;
 }
 #contactpage{
-    margin-right: 2400px;
+    margin-right: 2550px;
 }
-.cake-image{
+.image-orient{
     display: grid;
     align-items: center;
     padding: 60px;
+    top: 0px;
+    background-image: url('h1_hero1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 6000px;
+    height: 1810px;
+    overflow: hidden;
+}
+.cake-image{
+    color: aliceblue;
+    font-family: "Poiret One", sans-serif;
+    font-size: 188px;
+    font-weight: 400;
+    margin-left: 1219px;
+    line-height: 1.2;
+}
+.cake-image button{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    border: 40px solid #E5BF4A; ;
+    background-color: #E5BF4A;;
+    text-transform: uppercase;
+    padding: 7px 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.cake-image button:hover{
+    background-color: black;
+    color: goldenrod;
+    border: 5px solid goldenrod;
+    padding: 41px 90px;
+} 
+.cap-t{
+    color: white;
+    font-family: "Poiret One", cursive;
+    font-size:100px;
+    text-align: center;
+    margin-top: 4%;
+    display: block;
+    margin-bottom: 12px;
+    position: relative;
+}
+#text1{
+    border: 1px solid goldenrod;
+    width: 260px;
+    position: absolute;
+    text-align: center;
+    top: 3000px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
 }
