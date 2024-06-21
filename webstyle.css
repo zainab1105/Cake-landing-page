@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 .header-1{
     display: flex;
@@ -41,17 +42,45 @@ body{
     font-size: 180px;
     font-family: "Meow Script", cursive;
     margin-left: 2101px;
-    margin-top: -1%;
+    margin-top: -18px;
 }
-#call{
+.call{
     color: goldenrod;
     font-family: "Jost", sans-serif;
     font-size: 40px;
-    border: 6px solid goldenrod;
-    padding: 37px;
-    height: 50px;
+    border: 7px solid goldenrod;
+    background-color: black;
+    padding: 40px;
+    height: 130px;
     margin-left: 1800px;
-    margin-top: 30px;
+    margin-top: 9px;
+    text-align: center;
+}
+.top-header-1 button{
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 5px solid #E5BF4A; 
+    background-color: black;
+    text-transform: uppercase;
+    padding: 7px 55px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.top-header-1 button:hover{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E5BF4A;
+    border: 5px solid goldenrod;
+    padding: 7px 55px;
+}
+.header-section-2{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+    padding: 85px 0;    
 }
 .header-2{
     display: flex;
@@ -60,23 +89,19 @@ body{
     font-size: 42px;
     text-align: center;
     list-style-type: none;
-    padding: 32px 7px;
-    justify-content: space-between;
+    justify-content: center;
     text-transform: uppercase;
-    position: sticky;
+    background-color: black;
 }
-#homepage{
-    margin-left: 2485px;
-}
-#contactpage{
-    margin-right: 2550px;
+.header-2 li{
+    margin: 1px 60px;
 }
 .image-orient{
     display: grid;
     align-items: center;
     padding: 60px;
     top: 0px;
-    background-image: url('h1_hero1.jpg');
+    background-image: url('img/h1_hero1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,23 +136,54 @@ body{
     border: 5px solid goldenrod;
     padding: 41px 90px;
 } 
+.caption-text{
+    text-align: center;
+    margin-top: 5.5%;
+}
 .cap-t{
     color: white;
     font-family: "Poiret One", cursive;
-    font-size:100px;
-    text-align: center;
-    margin-top: 4%;
-    display: block;
+    font-size:105px;
     margin-bottom: 12px;
     position: relative;
-}
-#text1{
-    border: 1px solid goldenrod;
-    width: 260px;
-    position: absolute;
     text-align: center;
-    top: 3000px;
-    bottom: 50px;
-    left: 50px;
-    right: 50px;
+}
+.y-dash{
+    width: 250px;
+    height: 2px;
+    background-color: gold;
+    margin: 30px auto 0;
+    margin-top: 2%;
+}
+.food-theme{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 100px;
+    padding: 50px;
+    margin: 40px;
+    color: white;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    margin-top: 1%;
+}
+#heading{
+    color: goldenrod;
+    font-family: "Poiret One", cursive;
+    font-size: 100px;
+    text-align: left;
+    margin-left: 1300px;
+}
+#para{
+    color: white;
+    font-family: "Poiret One", cursive;
+    font-size: 60px;
+    text-align: left;
+    margin-left: 1300px;
+}
+.para-img img{
+    width: 1923px;
+    max-width: 100%;
+    height: 1314px;
 }
