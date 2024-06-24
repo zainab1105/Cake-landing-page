@@ -80,21 +80,32 @@ body{
     top: 0;
     z-index: 1000;
     background-color: black;
-    padding: 85px 0;    
+    padding: 25px 0;    
 }
 .header-2{
     display: flex;
+    justify-content: center;
+}
+.header-2 li{
+    margin: 1px 60px;
+}
+#homepage, #cake, #aboutpage, #blogpage, #contactpage{
+    justify-content: space-between;
+    border: 40px solid black;
+    gap: 100px;
+    padding: 22px;
     color: aliceblue;
+    cursor: pointer;
+    background-color: black;
     font-family: "Jost", sans-serif;;
-    font-size: 42px;
+    font-size: 40px;
     text-align: center;
     list-style-type: none;
     justify-content: center;
     text-transform: uppercase;
-    background-color: black;
 }
-.header-2 li{
-    margin: 1px 60px;
+.header-2 button:hover{
+    border: 1px solid gold;
 }
 .image-orient{
     display: grid;
@@ -292,4 +303,71 @@ body{
     background-color: white;
     border: 10px solid goldenrod;
     padding: 83px 93px;
+}
+.rev-head{
+    color: white;
+    font-family: "Poiret One", cursive;
+    font-size: 109px;
+    text-align: center;
+    font-weight: 40;
+    margin-top: 246px;
+}
+.rev-main{
+    display: grid;
+    grid-template-columns: 1245px 1245px 1167px;
+    grid-template-rows: 900px;
+    margin-left: 1300px;
+    margin-right: 1100px;
+    margin-top: 180px;
+}
+.stars{
+    display: flex;
+    font-size: 40px;
+    color: #E5BF4A;
+    align-items: center;
+    padding: 9px;
+    margin-left: -28px;
+    list-style-type: none;
+}
+.stars li{
+    margin: 20px;
+}
+.post{
+    color: white;
+    font-family: "Poiret One", cursive;
+    font-size: 70px;
+    margin-top: 30px;
+}
+.rev-section1{
+    border: 1px solid grey;
+    padding: 50px;
+    border-left: 0px;
+}
+.identity{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    margin-top: 134px;
+}
+.profile-pic{
+    display: flex;
+    height: 90px;
+    width: 90px;
+    margin-left: -29px;
+}
+.ident-1{
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 50px;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.rev-section2{
+    border: 1px solid grey;
+    padding: 50px;
+}
+.rev-section3{
+    border: 1px solid grey;
+    padding: 50px;
+    border-right: 0px;
 }
