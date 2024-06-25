@@ -310,7 +310,7 @@ body{
     font-size: 109px;
     text-align: center;
     font-weight: 40;
-    margin-top: 246px;
+    margin-top: 244px;
 }
 .rev-main{
     display: grid;
@@ -318,7 +318,7 @@ body{
     grid-template-rows: 900px;
     margin-left: 1300px;
     margin-right: 1100px;
-    margin-top: 180px;
+    margin-top: 155px;
 }
 .stars{
     display: flex;
@@ -378,16 +378,79 @@ body{
     margin-top: 432px;
 }
 .blogs{
+    margin-left: 110px;
+    margin-top: -144px;
+}
+#topic{
     color: white;
     font-family: "Poiret One", cursive;
     font-size: 110px;
-    text-align: center;
-    margin-left: 785px;
+    margin-left: 1250px;
+}
+.about-blog{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 290px;
+}
+.blog-image img{
+    position: relative;
+    width: 1399px;
+    height: 984px;
+    display: block;
+    margin-left: 100px;
+}
+.blog-text{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 100px;
+    border: 1px solid grey;
+    width: 1150px;
+    height: 899px;
+    border-left: none;
+}
+#tomato-head{
+    color: gold;
+    font-family: "Poiret One", cursive;
+    font-size: 68px;
+}
+#mid-text{
+    color: white;
+    font-family: "Poiret One", cursive;
+    font-size: 58px;
+    margin-top: 2px;
+}
+.blog-text button{
+    margin-top: 60px;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: black;
+    text-align: left;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    cursor: pointer;
+}
+#dash{
+    border: 1px solid goldenrod;
+    width: 270px;
+}
+.blog-text button:hover{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: black;
+    text-align: left;
+    border-top: none;
+    border-right: none;
+    border-left: none;
 }
 .more-blog{
-    margin-left: 2117px;
+    margin-left: -223px;
+    margin-top: -63px;
 }
-.more-blog button{
+.more button{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 38px;
@@ -400,10 +463,40 @@ body{
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    margin-left: 1450px;
 }
-.more-blog button:hover{
+.more button:hover{
     background-color: black;
     color: goldenrod;
     border: 5px solid goldenrod;
-    padding: 47px 107px;
+    padding: 50px 107px;
 } 
+.more-blog img{
+    position: relative;
+    width: 1399px;
+    height: 984px;
+    display: block;
+    margin-left: 1px;
+}
+#more-blog-btn button{
+    margin-top: 60px;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: black;
+    text-align: left;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    cursor: pointer;
+}
+#more-blog-btn button:hover{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color: black;
+    text-align: left;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
