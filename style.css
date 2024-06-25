@@ -371,3 +371,39 @@ body{
     padding: 50px;
     border-right: 0px;
 }
+.blog-section{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-top: 432px;
+}
+.blogs{
+    color: white;
+    font-family: "Poiret One", cursive;
+    font-size: 110px;
+    text-align: center;
+    margin-left: 785px;
+}
+.more-blog{
+    margin-left: 2117px;
+}
+.more-blog button{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    font-display: unset;
+    border: 40px solid #E5BF4A;
+    background-color: #E5BF4A;
+    text-transform: uppercase;
+    padding: 16px 73px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.more-blog button:hover{
+    background-color: black;
+    color: goldenrod;
+    border: 5px solid goldenrod;
+    padding: 47px 107px;
+} 
