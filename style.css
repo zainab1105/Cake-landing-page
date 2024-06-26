@@ -89,7 +89,7 @@ body{
 .header-2 li{
     margin: 1px 60px;
 }
-#homepage, #cake, #aboutpage, #blogpage, #contactpage{
+.header-2 button{
     justify-content: space-between;
     border: 40px solid black;
     gap: 100px;
@@ -105,7 +105,11 @@ body{
     text-transform: uppercase;
 }
 .header-2 button:hover{
-    border: 1px solid gold;
+    color: #E5BF4A;
+    text-decoration: underline;
+    text-underline-offset: 57px;
+    text-decoration-color: #E5BF4A;
+    text-decoration-thickness: 3px;
 }
 .image-orient{
     display: grid;
@@ -391,7 +395,7 @@ body{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin-top: 290px;
+    margin-top: 289px;
 }
 .blog-image img{
     position: relative;
@@ -406,7 +410,7 @@ body{
     padding: 60px 100px;
     border: 1px solid grey;
     width: 1150px;
-    height: 899px;
+    height: 858px;
     border-left: none;
 }
 #tomato-head{
@@ -418,7 +422,7 @@ body{
     color: white;
     font-family: "Poiret One", cursive;
     font-size: 58px;
-    margin-top: 2px;
+    margin-top: 0px;
 }
 .blog-text button{
     margin-top: 60px;
@@ -431,34 +435,33 @@ body{
     border-right: none;
     border-left: none;
     cursor: pointer;
-}
-#dash{
-    border: 1px solid goldenrod;
-    width: 270px;
+    width: 320px;
+    margin-bottom: 1px;
+    color: #E5BF4A;
+    text-decoration: underline;
+    text-underline-offset: 30px;
+    text-decoration-color: #E5BF4A;
+    text-decoration-thickness: 3px;
 }
 .blog-text button:hover{
-    color: gold;
+    color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     background-color: black;
-    text-align: left;
-    border-top: none;
-    border-right: none;
-    border-left: none;
+    letter-spacing: 3px;
 }
 .more-blog{
     margin-left: -223px;
-    margin-top: -63px;
+    margin-top: -105px;
 }
 .more button{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 38px;
-    font-display: unset;
     border: 40px solid #E5BF4A;
     background-color: #E5BF4A;
     text-transform: uppercase;
-    padding: 16px 73px;
+    padding: 30px 73px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -466,20 +469,21 @@ body{
     margin-left: 1450px;
 }
 .more button:hover{
-    background-color: black;
     color: goldenrod;
     border: 5px solid goldenrod;
-    padding: 50px 107px;
+    border-bottom: 1px solid goldenrod;
+    background-color: black;
+    padding: 66px 108px;
 } 
 .more-blog img{
     position: relative;
     width: 1399px;
-    height: 984px;
+    height: 986px;
     display: block;
     margin-left: 1px;
 }
-#more-blog-btn button{
-    margin-top: 60px;
+.more-blog-btn button{
+    margin-top: 39px;
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -489,14 +493,93 @@ body{
     border-right: none;
     border-left: none;
     cursor: pointer;
+    margin-bottom: 1px;
+    width: 400px;
+    color: #E5BF4A;
+    text-decoration: underline;
+    text-underline-offset: 30px;
+    text-decoration-color: goldenrod;
+    text-decoration-thickness: 3px;
 }
-#more-blog-btn button:hover{
-    color: gold;
+.more-blog-btn button:hover{
+    color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     background-color: black;
-    text-align: left;
+    letter-spacing: 3px;
+}
+.follow-text{
+    color: aliceblue;
+    font-family: "Poiret One", cursive;
+    font-size: 110px;
+    padding: 400px;
+    text-align: center;
+    margin-bottom: -299px;
+}
+.insta-access-btn button{
+    color: gold;
+    font-family: "Poiret One", cursive;
+    font-size: 45px;
+    border:5px solid gold;
+    background-color: black;
+    padding: 40px 95px;
+    margin-left: 2800px;
+}
+.ins1{
+    color: gold;
+    margin-right: 34px;
+}
+.insta-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+    align-items: center;
+    margin-top: 250px;
+}
+.insta-part img{
+    height: 630px;
+    width: 800px;
+}
+.shop-name-clone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 350px;
+    margin-left: 1170px;
+    border: 1px solid grey;
+    padding: 100px;
     border-top: none;
-    border-right: none;
     border-left: none;
+    border-right: none;
+}
+.clone1 img{
+    height: 260px;
+    width: 700px;
+}
+.header2-clone{
+    margin-left: 1530px;
+    margin-top: 45px;
+}
+.header2-clone button{
+    justify-content: space-between;
+    border: 40px solid black;
+    gap: 100px;
+    padding: 22px;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: black;
+    font-family: "Jost", sans-serif;;
+    font-size: 40px;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.header2-clone button:hover{
+    color: #E5BF4A;
+    text-decoration: underline;
+    text-underline-offset: 57px;
+    text-decoration-color: #E5BF4A;
+    text-decoration-thickness: 3px;
 }
