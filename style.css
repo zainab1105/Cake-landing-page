@@ -524,6 +524,7 @@ body{
     background-color: black;
     padding: 40px 95px;
     margin-left: 2800px;
+    cursor: pointer;
 }
 .ins1{
     color: gold;
@@ -545,21 +546,17 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 350px;
+    margin-top: 280px;
     margin-left: 1170px;
-    border: 1px solid grey;
     padding: 100px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
 }
 .clone1 img{
-    height: 260px;
+    height: 250px;
     width: 700px;
 }
 .header2-clone{
-    margin-left: 1530px;
-    margin-top: 45px;
+    margin-left: 2179px;
+    margin-top: -215px;
 }
 .header2-clone button{
     justify-content: space-between;
@@ -569,7 +566,7 @@ body{
     color: aliceblue;
     cursor: pointer;
     background-color: black;
-    font-family: "Jost", sans-serif;;
+    font-family: "Jost", sans-serif;
     font-size: 40px;
     text-align: center;
     list-style-type: none;
@@ -582,4 +579,130 @@ body{
     text-underline-offset: 57px;
     text-decoration-color: #E5BF4A;
     text-decoration-thickness: 3px;
+}
+.clone-border{
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    padding: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 1285px;
+    margin-left: 1317px;
+    margin-top: -196px;
+}
+.shop-info {
+    display: flex;
+    color: aliceblue;
+    font-family: "Jost", sans-serif;
+    margin-left: 1285px;
+    margin-bottom: -147px;
+}
+.shop-info ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.info-para {
+    margin-top: 150px;
+    font-size: 50px;
+    line-height: 1.5;
+    margin-left: 0px;
+}
+.social-buttons {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    margin-left: -2px;
+}
+.social-buttons button {
+    justify-content: space-between;
+    border: 4px solid rgb(255, 255, 255, 0.2);
+    padding: 50px 100px;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    list-style-type: none;
+    justify-content: center;
+}
+.social-buttons button:hover{
+    border: 4px solid rgb(255, 255, 255, 0.2);
+    padding: 50px 100px;
+    color: gold;
+    background-color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 40px;
+    background-color: black;
+}
+.social-buttons i {
+    margin-right: 10px;
+}
+.loc-icon{
+    color: aliceblue;
+    font-size: 90px;
+    margin-bottom: 0px;
+}
+.location{
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 50px;
+}
+.location-title{
+    font-size: 60px;
+    color: goldenrod;
+    margin-top: 10px;
+}
+.con-icon{
+    color: aliceblue;
+    font-size: 73px;
+    margin-bottom: 0px;
+}
+.contact{
+    margin-top: 120px;
+    margin-left: 335px;
+    font-size: 50px;
+}
+.contact-title{
+    font-size: 60px;
+    color: goldenrod;
+    margin-top: 25px;
+}
+.contact-title button{
+    font-size: 56px;
+    color: goldenrod;
+    border: 1px solid black;
+    background-color: black;
+    cursor: pointer;
+}
+.contact-title button:hover{
+    text-decoration: underline;
+    font-size: 56px;
+    color: goldenrod;
+    border: 1px solid black;
+    background-color: black;
+}
+.footer-border{
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    padding: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 1285px;
+    margin-left: 1310px;
+}
+.copyright{
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-size: 37px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 116px;
+}
+.heart{
+    color: gold;
+}
+#colorlib{
+    color: goldenrod;
 }
