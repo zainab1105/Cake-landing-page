@@ -24,18 +24,30 @@ body{
     color: aliceblue;
     margin-top: 30px;
     margin-left: 150px;
+    cursor: pointer;
+}
+.fab:hover{
+    color: #E5BF4A;
 }
 .ins{
     padding: 40px;
     font-size: 45px;
     color: aliceblue;
     margin-top: 30px;
+    cursor: pointer;
+}
+.ins:hover{
+    color: #E5BF4A;
 }
 .twit{
     padding: 40px;
     font-size: 45px;
     color: aliceblue;
     margin-top: 30px;
+    cursor: pointer;
+}
+.twit:hover{
+    color: #E5BF4A;
 }
 #img{
     padding: 4px;
@@ -212,8 +224,26 @@ body{
     list-style-type: none;
     flex-wrap: wrap;
     flex-direction: row;
-    position: relative;
-    
+    position: relative;  
+}
+.hidden-btn{
+    position: absolute;
+    margin-top: -148px;
+}
+.hidden-btn button{
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 38px;
+    justify-content: center;
+    border: 1px solid #E5BF4A;
+    background-color: #E5BF4A;
+    visibility: hidden;
+    padding: 45px 457px;
+    cursor: pointer;
+}
+.hidden-btn:hover button{
+    visibility: visible;
+
 }
 .cake-temp{
     display: flex;
@@ -223,6 +253,10 @@ body{
 .left-angle{
     font-size: 110px;
     margin-top: 500px;
+}
+.left-angle:hover{
+    color: goldenrod;
+    cursor: pointer;
 }
 .cake-sell img{
     height: 870px;
@@ -235,6 +269,11 @@ body{
 .right-angle{
     font-size: 110px;
     margin-top: 500px;
+    cursor: pointer;
+}
+.right-angle:hover{
+    color: goldenrod;
+    cursor: pointer;
 }
 #text1{
     color: aliceblue;
