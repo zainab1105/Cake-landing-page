@@ -24,18 +24,30 @@ body{
     color: aliceblue;
     margin-top: 30px;
     margin-left: 150px;
+    cursor: pointer;
+}
+.fab:hover{
+    color: #E5BF4A;
 }
 .ins{
     padding: 40px;
     font-size: 45px;
     color: aliceblue;
     margin-top: 30px;
+    cursor: pointer;
+}
+.ins:hover{
+    color: #E5BF4A;
 }
 .twit{
     padding: 40px;
     font-size: 45px;
     color: aliceblue;
     margin-top: 30px;
+    cursor: pointer;
+}
+.twit:hover{
+    color: #E5BF4A;
 }
 #img{
     padding: 4px;
@@ -212,8 +224,44 @@ body{
     list-style-type: none;
     flex-wrap: wrap;
     flex-direction: row;
+    position: relative;  
+}
+.hidden-btn{
+    position: absolute;
+    margin-top: -148px;
+}
+.hidden-btn button{
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 38px;
+    justify-content: center;
+    border: 1px solid #E5BF4A;
+    background-color: #E5BF4A;
+    visibility: hidden;
+    padding: 45px 457px;
+    cursor: pointer;
+}
+.hidden-btn:hover button{
+    visibility: visible;
     position: relative;
-    
+}
+.hidden-btn{
+    position: absolute;
+    margin-top: -148px;
+}
+.hidden-btn button{
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-size: 38px;
+    justify-content: center;
+    border: 1px solid #E5BF4A;
+    background-color: #E5BF4A;
+    visibility: hidden;
+    padding: 45px 457px;
+    cursor: pointer;
+}
+.hidden-btn:hover button{
+    visibility: visible;
 }
 .cake-temp{
     display: flex;
@@ -223,6 +271,10 @@ body{
 .left-angle{
     font-size: 110px;
     margin-top: 500px;
+}
+.left-angle:hover{
+    color: goldenrod;
+    cursor: pointer;
 }
 .cake-sell img{
     height: 870px;
@@ -235,6 +287,11 @@ body{
 .right-angle{
     font-size: 110px;
     margin-top: 500px;
+    cursor: pointer;
+}
+.right-angle:hover{
+    color: goldenrod;
+    cursor: pointer;
 }
 #text1{
     color: aliceblue;
@@ -708,387 +765,3 @@ body{
 #colorlib{
     color: goldenrod;
 }
-@media only screen and (max-width: 1600px) {
-    .image-orient {
-        width: 100%;
-        margin-left: 0;
-    }
-    .cake-image {
-        margin-left: 0;
-    }
-    .video {
-        width: 100%;
-        margin-left: 0;
-    }
-    .rev-main {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .blog-section {
-        grid-template-columns: 1fr;
-    }
-    .blog-image img {
-        margin-left: 0;
-        width: 100%;
-    }
-    .blog-text {
-        width: 100%;
-        margin-left: 0;
-    }
-    .follow-text {
-        padding: 100px;
-    }
-    .insta-access-btn button {
-        margin-left: 10%;
-    }
-    .shop-name-clone {
-        margin-left: 10%;
-    }
-    .clone-border {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-    .shop-info {
-        margin-left: 5%;
-    }
-    .social-buttons button {
-        padding: 20px;
-    }
-    .location {
-        margin-left: 10%;
-    }
-    .contact {
-        margin-left: 5%;
-    }
-    .copyright {
-        margin-top: 50px;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .header2-clone button {
-        padding: 10px;
-    }
-    .more button {
-        padding: 20px;
-    }
-    .more-blog-btn button {
-        width: 100%;
-        margin-left: 0;
-    }
-    .blog-image img {
-        height: auto;
-    }
-    .more-blog img {
-        height: auto;
-    }
-    .video button {
-        padding: 50px;
-    }
-    .video-temp {
-        margin-left: 50%;
-    }
-    .top-header-1 button {
-        padding: 5px;
-    }
-    .cap-t {
-        font-size: 50px;
-    }
-    .cake-image button {
-        font-size: 30px;
-    }
-    .cake-sell img {
-        width: 100%;
-        height: auto;
-    }
-    .social-buttons button {
-        padding: 10px;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .header-1 {
-        padding: 20px;
-    }
-    .top-header-1 {
-        padding: 5px;
-    }
-    .header-2 li {
-        margin: 5px 30px;
-    }
-    .header-2 button {
-        padding: 10px;
-    }
-    .image-orient {
-        padding: 20px;
-    }
-    .cake-image {
-        margin-left: 0;
-        font-size: 100px;
-    }
-    .cake-image button {
-        padding: 20px;
-        font-size: 20px;
-    }
-    .cap-t {
-        font-size: 40px;
-    }
-    .food-theme {
-        padding: 20px;
-    }
-    .cake-sell {
-        margin-top: 10px;
-    }
-    .video {
-        padding: 20px;
-    }
-    .rev-head {
-        font-size: 80px;
-    }
-    .stars {
-        font-size: 30px;
-        margin-left: -15px;
-    }
-    .post {
-        font-size: 50px;
-    }
-    .blog-section {
-        margin-top: 150px;
-    }
-    .blog-text {
-        padding: 20px;
-    }
-    .blog-text button {
-        font-size: 30px;
-        padding: 10px;
-    }
-    .more-blog-btn button {
-        padding: 10px;
-        width: 100%;
-        margin-left: 0;
-    }
-    .follow-text {
-        padding: 200px;
-    }
-    .insta-access-btn button {
-        padding: 30px;
-        margin-left: 0;
-    }
-    .shop-name-clone {
-        margin-top: 50px;
-        margin-left: 5%;
-    }
-    .clone1 img {
-        width: 100%;
-        height: auto;
-    }
-    .clone-border {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-    .shop-info {
-        margin-left: 5%;
-        margin-bottom: 50px;
-    }
-    .social-buttons button {
-        padding: 10px;
-    }
-    .location {
-        margin-left: 5%;
-    }
-    .contact {
-        margin-left: 5%;
-    }
-    .contact-title button {
-        font-size: 40px;
-    }
-    .more button {
-        padding: 15px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .header-1 {
-        padding: 10px;
-        font-size: 15px;
-    }
-    .top-header-1 {
-        padding: 3px;
-    }
-    .fab,
-    .ins,
-    .twit {
-        padding: 20px;
-        font-size: 30px;
-    }
-    #img {
-        font-size: 120px;
-        margin-left: 200px;
-    }
-    .call {
-        font-size: 30px;
-        padding: 20px;
-        height: 100px;
-        margin-left: 150px;
-    }
-    .header-section-2 {
-        padding: 15px 0;
-    }
-    .header-2 li {
-        margin: 1px 30px;
-    }
-    .header-2 button {
-        padding: 10px;
-        font-size: 30px;
-    }
-    .image-orient {
-        padding: 10px;
-    }
-    .cake-image {
-        font-size: 80px;
-    }
-    .cake-image button {
-        font-size: 15px;
-        padding: 5px;
-    }
-    .caption-text {
-        margin-top: 3%;
-    }
-    .cap-t {
-        font-size: 70px;
-    }
-    .food-theme {
-        padding: 30px;
-    }
-    .cake-sell {
-        margin-top: 20px;
-    }
-    .left-angle,
-    .right-angle {
-        font-size: 80px;
-        margin-top: 300px;
-    }
-    .cake-sell img {
-        width: 100%;
-        height: auto;
-    }
-    .video {
-        padding: 10px;
-    }
-    .rev-head {
-        font-size: 60px;
-    }
-    .stars {
-        font-size: 20px;
-        margin-left: -10px;
-    }
-    .post {
-        font-size: 40px;
-    }
-    .identity {
-        margin-top: 70px;
-    }
-    .profile-pic {
-        height: 70px;
-        width: 70px;
-    }
-    .ident-1 {
-        font-size: 40px;
-        margin-top: -30px;
-    }
-    .blog-section {
-        margin-top: 200px;
-    }
-    .blog-text {
-        padding: 15px;
-    }
-    .blog-text button {
-        font-size: 25px;
-        padding: 7px;
-    }
-    .more-blog-btn button {
-        padding: 7px;
-        width: 100%;
-        margin-left: 0;
-    }
-    .follow-text {
-        padding: 100px;
-    }
-    .insta-access-btn button {
-        padding: 25px;
-        margin-left: 0;
-    }
-    .shop-name-clone {
-        margin-top: 20px;
-        margin-left: 10%;
-    }
-    .clone1 img {
-        width: 100%;
-        height: auto;
-    }
-    .clone-border {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-    .shop-info {
-        margin-left: 5%;
-        margin-bottom: 50px;
-    }
-    .social-buttons button {
-        padding: 10px;
-    }
-    .location {
-        margin-left: 5%;
-    }
-    .contact {
-        margin-left: 5%;
-    }
-    .contact-title button {
-        font-size: 30px;
-    }
-    .more button {
-        padding: 10px;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    .header-1 {
-        padding: 5px;
-        font-size: 12px;
-    }
-    .top-header-1 {
-        padding: 2px;
-    }
-    .fab,
-    .ins,
-    .twit {
-        padding: 15px;
-        font-size: 20px;
-    }
-    #img {
-        font-size: 90px;
-        margin-left: 180px;
-    }
-    .call {
-        font-size: 25px;
-        padding: 15px;
-        height: 80px;
-        margin-left: 100px;
-    }
-    .header-section-2 {
-        padding: 10px 0;
-    }
-    .header-2 li {
-        margin: 1px 20px;
-    }
-    .header-2 button {
-        padding: 8px;
-        font-size: 25px;
-    }
-    .image-orient {
-        padding: 8px;
-    }
-    .cake-image {
-        font-size: 50px;
-    }
-    .cake-image
