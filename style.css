@@ -765,3 +765,235 @@ body{
 #colorlib{
     color: goldenrod;
 }
+@media only screen and (max-width: 768px) {
+    .header-1 {
+      font-size: 16px;
+      padding: 60px ;
+    }
+    .top-header-1 {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        justify-content: left;
+        padding: 9px;
+        text-align: center;
+    }
+    .fab,.ins,.twit {
+      font-size: 60px;
+      margin-top: 90px;
+      padding: 20px;
+      margin-left: 50px;
+    }
+    #img {
+      font-size: 200px;
+      margin-left: 500px;
+      padding: 30px 50px;
+      justify-content: center;
+      white-space: nowrap;
+    }
+    .call {
+      font-size: 24px;
+      padding: 20px;
+      margin-left: 350px;
+      margin-top: 70px;
+      white-space: nowrap;
+    }
+    .header-2{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .header-2 button {
+        margin-top: -59px;
+        font-size: 60px;
+        margin-left: 40px;
+        text-align: left;
+    }
+    .header-2 button:hover{
+        text-underline-offset: 20px;
+    }
+    .image-orient {
+      background-size: cover;
+      height: 800px;
+    }
+    .cake-image {
+      font-size: 100px;
+    }
+    .cake-image button {
+      font-size: 24px;
+      padding: 10px;
+    }
+    .caption-text {
+      font-size: 24px;
+    }
+    .food-theme {
+      grid-template-columns: auto;
+      gap: 20px;
+    }
+    #heading, #para {
+      font-size: 40px;
+      margin-left: 20px;
+    }
+    .para-img img {
+      width: 100%;
+      height: auto;
+    }
+    .cake-sell {
+      flex-wrap: wrap;
+    }
+    .hidden-btn {
+      margin-top: -50px;
+    }
+    .hidden-btn button {
+      font-size: 24px;
+      padding: 10px;
+    }
+    .cake-temp {
+      flex-direction: column;
+    }
+    .left-angle,.right-angle {
+      font-size: 60px;
+    }
+    #text1, #text2, #text3, #text4, #text5, #text6 {
+      font-size: 40px;
+    }
+    .video {
+      background-size: cover;
+      height: 800px;
+    }
+    .video button {
+      font-size: 40px;
+      padding: 20px;
+    }
+    .rev-head {
+      font-size: 60px;
+    }
+    .rev-main {
+      grid-template-columns: auto;
+      gap: 20px;
+    }
+    .stars {
+      font-size: 24px;
+    }
+    .post {
+      font-size: 40px;
+    }
+    .rev-section1,.rev-section2,.rev-section3 {
+      padding: 20px;
+    }
+    .identity {
+      flex-direction: column;
+    }
+    .profile-pic {
+      height: 60px;
+      width: 60px;
+    }
+    .ident-1 {
+      font-size: 24px;
+    }
+    .blog-section {
+      grid-template-columns: auto;
+      gap: 20px;
+    }
+    .blogs {
+      margin-left: 20px;
+    }
+    #topic {
+      font-size: 60px;
+    }
+    .about-blog {
+      flex-direction: column;
+    }
+    .blog-image img {
+      width: 100%;
+      height: auto;
+    }
+    .blog-text {
+      padding: 20px;
+    }
+    #tomato-head {
+      font-size: 40px;
+    }
+    #mid-text {
+      font-size: 24px;
+    }
+    .blog-text button {
+      font-size: 24px;
+      padding: 10px;
+    }
+    .more-blog {
+      margin-left: 20px;
+    }
+    .more button {
+      font-size: 24px;
+      padding: 10px;
+    }
+    .follow-text {
+      font-size: 60px;
+    }
+    .insta-access-btn button {
+      font-size: 24px;
+      padding: 10px;
+    }
+    .insta-part {
+      flex-direction: column;
+    }
+    .insta-part img {
+      width: 100%;
+      height: auto;
+    }
+    .shop-name-clone {
+      flex-direction: column;
+    }
+    .clone1 img {
+      width: 100%;
+      height: auto;
+    }
+    .header2-clone {
+      margin-left: 20px;
+    }
+    .header2-clone button {
+      font-size: 24px;
+      padding: 10px;
+    }
+    .clone-border {
+      padding: 20px;
+    }
+    .shop-info {
+      flex-direction: column;
+    }
+    .shop-info img {
+        width: 100%;
+        height: auto;
+      }
+      .shop-info button {
+        font-size: 24px;
+        padding: 10px;
+      }
+      .footer-section {
+        flex-direction: column;
+      }
+      .footer-section ul {
+        margin: 10px;
+      }
+      .footer-section li {
+        margin: 10px;
+      }
+      .footer-section a {
+        font-size: 24px;
+      }
+      .footer-section button {
+        font-size: 24px;
+        padding: 10px;
+      }
+      .copyright {
+        font-size: 24px;
+        margin-left: 20px;
+      }
+      .social-media {
+        flex-direction: column;
+      }
+      .social-media a {
+        font-size: 30px;
+        padding: 20px;
+      }
+}
