@@ -20,10 +20,10 @@ body{
 }
 .fab{
     padding: 40px;
-    font-size: 45px;
+    font-size: 48px;
     color: aliceblue;
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 170px;
     cursor: pointer;
 }
 .fab:hover{
@@ -31,7 +31,7 @@ body{
 }
 .ins{
     padding: 40px;
-    font-size: 45px;
+    font-size: 48px;
     color: aliceblue;
     margin-top: 30px;
     cursor: pointer;
@@ -41,7 +41,7 @@ body{
 }
 .twit{
     padding: 40px;
-    font-size: 45px;
+    font-size: 48px;
     color: aliceblue;
     margin-top: 30px;
     cursor: pointer;
@@ -51,32 +51,22 @@ body{
 }
 #img{
     padding: 4px;
-    text-align: center;
-    color: goldenrod;
-    font-size: 180px;
-    font-family: "Meow Script", cursive;
-    margin-left: 2101px;
+    margin-left: 2012px;
     margin-top: -18px;
+    margin-bottom: -45px;
+    display: block;
 }
 .call{
-    color: goldenrod;
-    font-family: "Jost", sans-serif;
-    font-size: 40px;
-    border: 7px solid goldenrod;
-    background-color: black;
-    padding: 40px;
     height: 130px;
-    margin-left: 1800px;
-    margin-top: 9px;
-    text-align: center;
+    margin-left: 1765px;
+    margin-top: 30px;
 }
 .top-header-1 button{
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     border: 5px solid #E5BF4A; 
     background-color: black;
-    text-transform: uppercase;
     padding: 7px 55px;
     text-align: center;
     text-decoration: none;
@@ -99,6 +89,7 @@ body{
 .header-2{
     display: flex;
     justify-content: center;
+    gap: 5px;
 }
 .header-2 li{
     margin: 1px 60px;
@@ -106,13 +97,12 @@ body{
 .header-2 button{
     justify-content: space-between;
     border: 40px solid black;
-    gap: 100px;
     padding: 22px;
     color: aliceblue;
     cursor: pointer;
     background-color: black;
     font-family: "Jost", sans-serif;;
-    font-size: 40px;
+    font-size: 44px;
     text-align: center;
     list-style-type: none;
     justify-content: center;
@@ -135,7 +125,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     width: 6000px;
-    height: 1810px;
+    height: 1970px;
     overflow: hidden;
 }
 .cake-image{
@@ -165,11 +155,9 @@ body{
     border: 5px solid goldenrod;
     padding: 41px 90px;
 } 
-.caption-text{
+.cap-t{
     text-align: center;
     margin-top: 5.5%;
-}
-.cap-t{
     color: white;
     font-family: "Poiret One", cursive;
     font-size:105px;
@@ -212,86 +200,75 @@ body{
     margin-left: 200px;
 }
 .para-img img{
-    width: 1923px;
+    width: 1728px;
     max-width: 100%;
-    height: 1314px;
+    height: 1232px;
 }
-.cake-sell{
-    display: flex;
-    color: #E5BF4A;
-    justify-content: center;
-    margin-top: 30px;
-    list-style-type: none;
-    flex-wrap: wrap;
-    flex-direction: row;
-    position: relative;  
+.cake-sell {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+  gap: 70px;
+  color: #E5BF4A;
+  margin-top: 30px;
+  margin-left: 100px;
+  justify-content: center;
 }
-.hidden-btn{
-    position: absolute;
-    margin-top: -148px;
+.image-container {
+  position: relative;
+  display: inline-block;
 }
-.hidden-btn button{
-    color: black;
-    font-family: "Jost", sans-serif;
-    font-size: 38px;
-    justify-content: center;
-    border: 1px solid #E5BF4A;
-    background-color: #E5BF4A;
-    visibility: hidden;
-    padding: 45px 457px;
-    cursor: pointer;
+.hidden-btn {
+  position: absolute;
+  visibility: hidden;
+  text-align: center;
+  margin-top: -132px;
 }
-.hidden-btn:hover button{
-    visibility: visible;
-    position: relative;
+.hidden-btn button {
+  color: black;
+  font-family: "Jost", sans-serif;
+  font-size: 47px;
+  white-space: nowrap;
+  background-color: #E5BF4A;
+  border: 1px solid #E5BF4A;
+  padding: 27px 435px;
+  cursor: pointer;
 }
-.hidden-btn{
-    position: absolute;
-    margin-top: -148px;
+
+.image-container:hover .hidden-btn {
+  visibility: visible;
 }
-.hidden-btn button{
-    color: black;
-    font-family: "Jost", sans-serif;
-    font-size: 38px;
-    justify-content: center;
-    border: 1px solid #E5BF4A;
-    background-color: #E5BF4A;
-    visibility: hidden;
-    padding: 45px 457px;
-    cursor: pointer;
+
+.left-angle {
+  color: #E5BF4A;
+  position: relative;
+  font-size: 110px;
+  margin-top: 500px;
 }
-.hidden-btn:hover button{
-    visibility: visible;
+
+.left-angle:hover {
+  color: goldenrod;
+  cursor: pointer;
 }
-.cake-temp{
-    display: flex;
-    gap: 100px;
-    margin-left: 200px;
+
+.cake-sell img {
+  height: 870px;
+  width: 1100px;
+  display: block;
 }
-.left-angle{
-    font-size: 110px;
-    margin-top: 500px;
+.cake-temp {
+  font-family: "Poiret One", cursive;
 }
-.left-angle:hover{
-    color: goldenrod;
-    cursor: pointer;
+.right-angle {
+  color: #E5BF4A;
+  position: relative;
+  font-size: 110px;
+  margin-top: 500px;
+  cursor: pointer;
 }
-.cake-sell img{
-    height: 870px;
-    width: 1100px;
-    display: block;
-}                         
-.cake-temp{
-    font-family: "Poiret One", cursive;
-}
-.right-angle{
-    font-size: 110px;
-    margin-top: 500px;
-    cursor: pointer;
-}
-.right-angle:hover{
-    color: goldenrod;
-    cursor: pointer;
+.right-angle:hover {
+  color: goldenrod;
+  cursor: pointer;
 }
 #text1{
     color: aliceblue;
@@ -610,8 +587,8 @@ body{
     padding: 100px;
 }
 .clone1 img{
-    height: 250px;
-    width: 700px;
+    height: 237px;
+    width: 681px;
 }
 .header2-clone{
     margin-left: 2179px;
@@ -779,22 +756,22 @@ body{
         text-align: center;
     }
     .fab,.ins,.twit {
-      font-size: 16px;
-      margin-top: 90px;
+      font-size: 27px;
+      margin-top: 51px;
       padding: 20px;
-      margin-left: 50px;
+      margin-left: -8px;
     }
     #img {
-      font-size: 200px;
-      margin-left: 500px;
+      font-size: 100px;
+      margin-left: 200px;
       padding: 30px 50px;
       justify-content: center;
       white-space: nowrap;
     }
     .call {
-      font-size: 24px;
+      font-size: 20px;
       padding: 20px;
-      margin-left: 350px;
+      margin-left: 200px;
       margin-top: 70px;
       white-space: nowrap;
     }
