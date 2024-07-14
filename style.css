@@ -4,6 +4,109 @@ body{
     width: 100%;
     height: 100%;
 }
+body.day-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.day-mode .content {
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body.night-mode {
+  background-color: black;
+  color: #ffffff;
+}
+
+body.night-mode .content {
+  background-color: #333333;
+  border: 1px solid #555555;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+body.day-mode .ins{
+  color: black;
+}
+body.day-mode .fab{
+  color: #000000;
+}
+body.day-mode .twit{
+  color: #000000;
+}
+body.day-mode .call{
+  background-color: #ffffff5e;
+  font-weight: 700;
+  border: 5px solid goldenrod;
+}
+body.day-mode .call:hover{
+  color: rgb(168, 126, 21);
+  font-weight: 700;
+}
+body.day-mode .cap-t{
+  color: darkgoldenrod;
+}
+body.day-mode #heading{
+  color: darkgoldenrod;
+}
+body.day-mode #para{
+  color: black;
+  font-weight: 400;
+}
+body.day-mode #text1{
+  color: black;
+}
+body.day-mode #text2{
+  color: darkgoldenrod;
+}
+body.day-mode #text3{
+  color: black;
+}
+body.day-mode #text4{
+  color: darkgoldenrod;
+}
+body.day-mode #text5{
+  color: black;
+}
+body.day-mode #text6{
+  color: darkgoldenrod;
+}
+body.day-mode .rev-head{
+  color: #000000;
+}
+body.day-mode .post{
+  color: #000000;
+}
+body.day-mode .ident-1{
+  color: #000000;
+}
+body.day-mode #toggle-icon{
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+  padding: 1px;
+
+}
+
+button.toggle-button {
+  position: absolute;
+  margin: 20px;
+  padding: 25px 32px;
+  font-size: 71px;
+  color: black !important;
+  border: 1px solid #333333;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  color: inherit;
+  margin-left: 4665px;
+  margin-top: 27px
+}
+
 .header-1{
     display: flex;
     padding: 60px;
@@ -17,36 +120,18 @@ body{
     justify-content: left;
     padding: 9px;
     text-align: center;
+    gap: 20px;
+    margin-left: 167px;
 }
-.fab{
+.fab, .ins, .twit{
     padding: 40px;
     font-size: 48px;
     color: aliceblue;
     margin-top: 30px;
-    margin-left: 170px;
+    gap: 10px;
     cursor: pointer;
 }
-.fab:hover{
-    color: #E5BF4A;
-}
-.ins{
-    padding: 40px;
-    font-size: 48px;
-    color: aliceblue;
-    margin-top: 30px;
-    cursor: pointer;
-}
-.ins:hover{
-    color: #E5BF4A;
-}
-.twit{
-    padding: 40px;
-    font-size: 48px;
-    color: aliceblue;
-    margin-top: 30px;
-    cursor: pointer;
-}
-.twit:hover{
+.fab:hover, .ins:hover, .twit:hover{
     color: #E5BF4A;
 }
 #img{
@@ -61,7 +146,7 @@ body{
     margin-left: 1765px;
     margin-top: 30px;
 }
-.top-header-1 button{
+.call{
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -72,7 +157,7 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
-.top-header-1 button:hover{
+.call:hover{
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E5BF4A;
@@ -586,6 +671,9 @@ body{
     margin-left: 1170px;
     padding: 100px;
 }
+.shop-dta{
+  list-style-type: none;
+}
 .clone1 img{
     height: 237px;
     width: 681px;
@@ -742,6 +830,18 @@ body{
 #colorlib{
     color: goldenrod;
 }
+.up {
+  position: fixed;
+  bottom: 70px; 
+  right: 70px; 
+  border: 1px solid gold;
+  background-color: #E5BF4A;
+  border-radius: 50%;
+  padding: 25px;
+  font-size: 70px;
+  z-index: 1000; 
+}
+
 @media only screen and (max-width: 768px) {
     .header-1 {
       font-size: 16px;
